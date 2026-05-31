@@ -1,11 +1,12 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import ExplorePage from "./pages/ExplorePage";
 import CountryDetailPage from "./pages/CountryDetailPage";
 import BucketListPage from "./pages/BucketListPage";
 import PrivateRoute from "./components/Layout/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
+import LoginPage from "./pages/LoginPage";
+import CountryCard from "./components/Explore/CountryCard";
 
 function App() {
   return (
